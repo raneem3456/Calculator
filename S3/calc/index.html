@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+</head>
+<body>
+    <main>
+        <div class="circle"></div>
+       <div class="operation" id="operation"></div>
+       <div class="screen" id="screen"></div>
+       <div class="buttons">
+
+        <div class="btnA" onclick="reset()">C</div>
+        <div class="btnA" onclick="change_sign()">+/-</div>
+        <div class="btnA del" onclick="del()">DEL</div>
+        <div class="btnB" onclick="opr('÷')">÷</div>
+
+        <div class="btn" onclick="num(7)">7</div>
+        <div class="btn" onclick="num(8)">8</div>
+        <div class="btn" onclick="num(9)">9</div>
+        <div class="btnB" onclick="opr('X')">X</div>
+
+        <div class="btn" onclick="num(4)">4</div>
+        <div class="btn" onclick="num(5)">5</div>
+        <div class="btn" onclick="num(6)">6</div>
+        <div class="btnB" onclick="opr('-')">-</div>
+
+        <div class="btn" onclick="num(1)">1</div>
+        <div class="btn" onclick="num(2)">2</div>
+        <div class="btn" onclick="num(3)">3</div>
+        <div class="btnB" onclick="opr('+')">+</div>
+
+        <div class="btn0" onclick="num(0)">0</div>
+        <div class="btn" onclick="num('.')">.</div>
+        <div class="btnB" onclick="result()">=</div>
+
+        <div class="line"></div>
+       </div>
+    </main>
+</body>
+</html>
